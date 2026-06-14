@@ -3,7 +3,7 @@
 **Disciplina:** Ciência de Dados — Deep Learning  
 **Modelo:** YOLOv8n (Ultralytics)  
 **Dataset:** [Playing Cards — Roboflow Universe (Augmented Startups)](https://universe.roboflow.com/augmented-startups/playing-cards-ow27d)  
-**Repositório:** https://github.com/Luanacjq/Cartas-de-Baralho.git
+**Repositório:** https://github.com/Luanacjq/Cartas-de-Baralho
 
 ---
 
@@ -27,6 +27,22 @@ Cada classe corresponde a uma carta específica — por exemplo: `AS` (Ás de Es
 | mAP@0.5:0.95 | **0.7581** |
 
 > Avaliação realizada no conjunto de teste com 1.010 imagens e 4.040 instâncias anotadas.
+
+---
+
+## Resultados Visuais
+
+### Predições em Imagens Reais (capturadas pelo grupo)
+
+| Foto 1 | Foto 2 |
+|---|---|
+| ![Predição baralho.png](resultado.png) | ![Predição baralho2.png](resultado2.png) |
+
+### Predições no Conjunto de Teste
+
+| | | | |
+|---|---|---|---|
+| ![Teste 0](predicao_teste/image0.jpg) | ![Teste 1](predicao_teste/image1.jpg) | ![Teste 2](predicao_teste/image2.jpg) | ![Teste 3](predicao_teste/image3.jpg) |
 
 ---
 
@@ -61,8 +77,8 @@ pip install ultralytics roboflow
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Luanacjq/YOLO-Cartas-de-Baralho.git
-   cd YOLO-Cartas-de-Baralho
+   git clone https://github.com/Luanacjq/Cartas-de-Baralho.git
+   cd Cartas-de-Baralho
    ```
 
 2. Abra o notebook `Deteccao_Cartas_Baralho_YOLO.ipynb` no VS Code ou Jupyter.
@@ -74,11 +90,13 @@ pip install ultralytics roboflow
 ## Estrutura do Repositório
 
 ```
-YOLO-Cartas-de-Baralho/
+Cartas-de-Baralho/
 ├── Deteccao_Cartas_Baralho_YOLO.ipynb   # Notebook principal com todo o código
 ├── Relatorio_Tecnico.pdf                 # Relatório técnico do projeto
 ├── baralho.png                           # Foto real capturada pelo grupo
 ├── baralho2.png                          # Segunda foto real capturada pelo grupo
+├── resultado.png                         # Predição do modelo em baralho.png
+├── resultado2.png                        # Predição do modelo em baralho2.png
 ├── predicao_teste/                       # Predições do modelo no conjunto de teste
 │   ├── image0.jpg
 │   ├── image1.jpg
