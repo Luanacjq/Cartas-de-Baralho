@@ -3,7 +3,7 @@
 **Disciplina:** Ciência de Dados — Deep Learning  
 **Modelo:** YOLOv8n (Ultralytics)  
 **Dataset:** [Playing Cards — Roboflow Universe (Augmented Startups)](https://universe.roboflow.com/augmented-startups/playing-cards-ow27d)  
-**Repositório:** https://github.com/Luanacjq/YOLO-Cartas-de-Baralho
+**Repositório:** https://github.com/Luanacjq/Cartas-de-Baralho.git
 
 ---
 
